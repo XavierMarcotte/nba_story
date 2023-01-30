@@ -1,3 +1,30 @@
+@use './var.scss';
+
 body{
-    background: url(../../images/charles-barkley_9mf11orxp66n1aix4wismuh3n.jpeg) fixed center/cover;
+    background: url(../../images/drazen-petrovic-nets.jpg) center/cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 1rem auto
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: var.$color-1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    h1{
+        text-transform: capitalize;
+        padding: 0.2em;
+        font-size: 3em;
+        color: var.$font-color1;
+        text-shadow: -9px 7px 12px rgba(0,0,0,0.6);
+    }
+    h1:hover{
+            border: 2px solid black;
+        
+    }
 }
